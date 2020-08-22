@@ -17,7 +17,9 @@ rm linux
 ln -s linux-5.7.9999-pinx64 linux
 cd linux
 make pine64_defcd config
-make
-make modules_install
-make install
+make -j4
+make -j4 modules_install
+make -j4 install
+
+# wait several hours
 ```
