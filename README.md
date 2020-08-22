@@ -23,3 +23,5 @@ make -j4 install
 
 # wait several hours
 ```
+
+![](kernel.jpg)
