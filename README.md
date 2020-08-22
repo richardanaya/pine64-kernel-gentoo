@@ -6,7 +6,7 @@ This is a repo i'm using for my work on pine64 kernel sources on gentoo for Pine
 * an extremely narrow configuration
 * an ebuild for kernel sources
 
-```
+```bash
 git clone https://github.com/richardanaya/pine64-kernel-gentoo.git
 mkdir -p /var/db/repos/gentoo/sys-kernel/pine64-sources/
 cp pine64-sources-5.7.9999.ebuild /var/db/repos/gentoo/sys-kernel/pine64-sources/
