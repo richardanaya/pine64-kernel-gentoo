@@ -20,7 +20,7 @@ EGIT_CLONE_TYPE="shallow"
 DESCRIPTION="Pine64 kernel sources"
 HOMEPAGE="https://gitlab.com/pine64-org/linux"
 
-KEYWORDS="~~arm64"
+KEYWORDS="~arm64"
 
 src_unpack() {
 	git-r3_src_unpack
